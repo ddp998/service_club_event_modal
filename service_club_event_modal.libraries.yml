@@ -1,0 +1,6 @@
+event_modal:
+ version: 1.x
+ js:
+   js/runtime.js: {}
+   js/polyfills.js: {}
+   js/main.js: {}

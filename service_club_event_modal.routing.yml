@@ -1,0 +1,8 @@
+event_modal.modal:
+ path: 'modal-example/modal/{entityid}'
+ defaults:
+   _title: 'Modal'
+   _controller: '\Drupal\service_club_event_modal\Controller\EventModalController::launchModal'
+   entityid: 'ff'
+ requirements:
+   _permission: 'access content'

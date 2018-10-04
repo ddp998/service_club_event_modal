@@ -1,0 +1,10 @@
+name: 'Service Club Event Modal'
+type: module
+description: 'The module to handle to the modal to connect the event to the TMP'
+core: 8.x
+package: 'Service Club'
+dependencies:
+   - service_club_event
+   - jwt
+   - jwt_auth_consumer
+   - jwt_auth_issuer
