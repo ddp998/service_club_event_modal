@@ -74,7 +74,7 @@ function service_club_event_modal_event_information_view( array &$build, EventIn
   // Make sure your website has a key set in the JWT admin page.
   $jwtAuth = \Drupal::service('jwt.authentication.jwt');
   $jwtKey = $jwtAuth->generateToken();
-  $baseUrl = \Drupal::request()->getBaseUrl();
+  $baseUrl = \Drupal::request()->getHost();
 
   $build['#attached']['drupalSettings']['app_data']['jwtkey'] = $jwtKey;
   $build['#attached']['drupalSettings']['app_data']['eventid'] = $eventId;

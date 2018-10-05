@@ -17,7 +17,6 @@ class EventModalController extends ControllerBase {
     public function launchModal($entityid) {
         $content['#theme'] = 'service_club_event_modal';
         $content['#attached']['library'][] = 'service_club_event_modal/event_modal';
-       // $content['entityId'] = $entityid;
 
         $options = [
             'dialogClass' => 'popup-dialog-class',
