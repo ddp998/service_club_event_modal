@@ -88,6 +88,9 @@ function service_club_event_modal_event_information_view( array &$build, EventIn
   $jwtKey = $jwtAuth->generateToken();
   // Gets the baseUrl of the site.
   $baseUrl = \Drupal::request()->getHost();
+  
+  // Add the http or https to the base Url
+  $baseUrl = \Drupal::request()->getScheme() . "://$baseUrl";
 
   // Embeds the data needed by the angular app into the page for it to access later.
   $build['#attached']['drupalSettings']['app_data']['jwtkey'] = $jwtKey;
