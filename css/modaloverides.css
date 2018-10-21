@@ -1,0 +1,11 @@
+.traffic-modal {
+  top: 0 !important;
+  height: 90vh !important;
+  width: 90% !important;
+  overflow: scroll;
+}
+
+.traffic-modal #drupal-modal {
+  max-height: none !important;
+  min-height: 90vh !important;
+}

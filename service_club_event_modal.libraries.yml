@@ -3,6 +3,7 @@ event_modal:
   css:
     layout:
      css/styles.css: {}
+     css/modaloverides.css: {}
      'https://unpkg.com/leaflet@1.3.4/dist/leaflet.css': { type: external }
   js:
     js/runtime.js: {}
