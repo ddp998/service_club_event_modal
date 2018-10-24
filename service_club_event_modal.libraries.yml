@@ -9,3 +9,4 @@ event_modal:
     js/runtime.js: {}
     js/polyfills.js: {}
     js/main.js: {}
+    'https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.3/leaflet.draw-src.js': { type: external }
